@@ -1,0 +1,30 @@
+//
+//  Word.pch
+//  word
+//
+//  Created by Mac on 2017/12/25.
+//  Copyright © 2017年 xinHeYanJunYuan. All rights reserved.
+//
+
+#ifndef Word_pch
+#define Word_pch
+
+#import "UIColor+Additions.h"
+#import "WordTool.h"
+#define XHScreenW [UIScreen mainScreen].bounds.size.width
+#define XHScreenH [UIScreen mainScreen].bounds.size.height
+#define XHSizeH [UIScreen mainScreen].bounds.size.height/667
+#define XHSizeW [UIScreen mainScreen].bounds.size.width/375
+#define mainColor [UIColor colorWithHex:@"#EEC894" andColorAlpha:1.0]
+
+#define UMKey @"5a711b7fb27b0a75c2000681"
+#define sinaKey @"2285947182"
+#define sinaSecret @"cf3dbfe9207eaae08f898d62620fc4b5"
+#define QQKey @"K1u3jdLLn4PdR4eo"
+//#define weChatKey @"K1u3jdLLn4PdR4eo"
+#define weChatKey @"wxdaf962e64f99ab38"
+#define weChatSecret @"0b91ff9c091b78d17e095ab1b8f95d0b"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Word_pch */
